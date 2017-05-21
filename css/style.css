@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#kontener_glowny {
+    height: 600px;
+    border: 1px solid black;
+    background: grey;
+    padding: 45px;
+}
+
+#kontener_glowny > div {
+    width: 100%;
+    height: 250px;
+    background: yellow;
+}
+
+
+/* Pozycjonowanie relative i absolute */
+#kontener_glowny #kont_1 {
+    margin-bottom: 100px;
+    position: relative;
+    top: 100px;
+    left: 60px;
+}
+
+#kontener_glowny #kont_1 p {
+    position: absolute;
+    top: 100px;
+    left 50px;
+}
+
+/* Pozycjonowanie fixed */
