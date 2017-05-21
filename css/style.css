@@ -32,3 +32,12 @@
 }
 
 /* Pozycjonowanie fixed */
+#main-nav {
+    width: 100%;
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    border-bottom: 2px solid black;
+}
